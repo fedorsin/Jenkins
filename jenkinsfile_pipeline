@@ -26,7 +26,7 @@ pipeline {
 
         stage("Start PyTest") {
             steps {
-                sh 'python3 -m pytest -v --junitxml=report.xml'
+                sh 'python3 -m pytest -v --junitxml=result.xml'
                 echo 'End PyTest'
             }
         }
