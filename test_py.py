@@ -24,4 +24,4 @@ def test_sum_clients(): # Тест на наличие 10 строк в Clients
 def test_sum_orders(): # Тест на наличие 10 строк в Orders
     assert len(app.Orders.select()) > 9
 def test2():
-    assert true
+    assert True
